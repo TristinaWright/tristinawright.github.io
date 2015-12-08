@@ -1,5 +1,5 @@
-baseurl: /
-permalink: pretty
+baseurl:
+permalink: 'post/'
 markdown: kramdown
 prose:
   rooturl: '_posts'
@@ -26,6 +26,11 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: "Tristina Wright"
       - name: "tags"
         field:
           element: "multiselect"
