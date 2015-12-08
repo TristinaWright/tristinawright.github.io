@@ -410,6 +410,7 @@ table {
 .pad4    { padding:40px; }
 .pad4h   { padding-left:40px; padding-right:40px; }
 .pad8    { padding:80px 40px; }
+.pad8h   { padding:0 40px; }
 .pad4c   { padding:40px; }
 
 /* Additional Utility Classes
@@ -507,11 +508,13 @@ Details: http://www.positioniseverything.net/easyclearing.html
 
 
 body{
-  background: #01314d url('img/nebula.jpg') no-repeat center center;
+  background: #01314d url('img/nebula.jpg') fixed no-repeat center center;
 }
 
 .header .blog-title {
   text-align: center;
+  background: url('img/divider.png') no-repeat bottom center;
+  line-height: 1.1;
 }
 
 .header a {
@@ -522,6 +525,7 @@ body{
   font-family: 'steelfish', sans-serif;
   font-size: 48px;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 .listing {
