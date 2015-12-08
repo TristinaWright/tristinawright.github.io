@@ -511,6 +511,12 @@ body{
   background: #01314d url('img/nebula.jpg') fixed no-repeat center center;
 }
 
+.home .header {
+  position: absolute;
+  top: 50%;
+  margin-top: -250px;
+}
+
 .header .blog-title {
   text-align: center;
   background: url('img/divider.png') no-repeat bottom center;
@@ -531,6 +537,7 @@ body{
 .listing {
   background: #fff;
   padding: 1rem;
+  margin-bottom: 4rem;
 }
 
 .listing h2 {
