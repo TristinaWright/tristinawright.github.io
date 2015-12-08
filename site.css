@@ -539,3 +539,7 @@ body{
   color: #04517d;
   text-transform: uppercase;
 }
+
+.listing .bio-img {
+  padding-right: 1rem;
+}
