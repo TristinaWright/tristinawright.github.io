@@ -557,6 +557,7 @@ body{
 
 .listing h3 {
   font-family: 'steelfish', sans-serif;
+  font-size: 28px;
   color: #04517d;
   text-transform: uppercase;
   margin: 1rem 0 .5rem;
