@@ -555,6 +555,13 @@ body{
   text-transform: uppercase;
 }
 
+.listing h3 {
+  font-family: 'steelfish', sans-serif;
+  color: #04517d;
+  text-transform: uppercase;
+  margin: 1rem 0 .5rem;
+}
+
 .listing .bio-img {
   padding-right: 1rem;
 }
