@@ -506,9 +506,16 @@ Details: http://www.positioniseverything.net/easyclearing.html
     }
   }
 
-
+html, body {
+  height: 100%;
+}
 body{
   background: #01314d url('img/nebula.jpg') fixed no-repeat center center;
+}
+
+.home > .container {
+  position: relative;
+  min-height: 100%;
 }
 
 .home .header {
@@ -525,6 +532,7 @@ body{
 
 .header a {
   color: #b0e0f7;
+  font-weight: normal;
 }
 
 .menu a {
