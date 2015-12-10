@@ -17,12 +17,18 @@ published: true
       <div class='header col8 margin2 pad8h'>
         <div class='clearfix col12'>
           <h1 class='blog-title'><a href='{{site.baseurl}}/'>Tristina Wright</a></h1>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+          <div class='menu'>
+            <a class='{% if page.url == "/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
             <a class='{% if page.url == "/about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a class='{% if page.url == "/writing/" %}active{% endif %}' href='{{site.baseurl}}/words'>Words</a>
+            <a class='{% if page.url == "/words/" %}active{% endif %}' href='{{site.baseurl}}/words'>Words</a>
             <a class='{% if page.url == "/faq/" %}active{% endif %}' href='{{site.baseurl}}/faq'>FAQ</a>
           </div>
+          <div class="social">
+            <div><a class="socicon-tumblr" href="http://authorwrightnow.tumblr.com/"></a></div>
+            <div><a class="socicon-instagram" href="https://www.instagram.com/tristinawright/"></a></div>
+            <div><a class="socicon-facebook" href="https://www.facebook.com/TristinaMWright"></a></div>
+            <div><a class="socicon-twitter" href="https://twitter.com/#!/TristinaWright"></a></div>
+            <div><a class="socicon-goodreads" href="http://www.goodreads.com/tristinawright"></a></div>
         </div>
       </div>
     </div>
