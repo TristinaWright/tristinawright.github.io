@@ -579,13 +579,11 @@ body{
 }
 
 .menu, .home .social {
-  margin: 0 0 0 3.1rem;
   float: none;
 }
 
 .home .menu, .social {
   float: right;
-  margin: 0 3.1rem 0 0;
 }
 
 .menu, .social{
@@ -658,7 +656,7 @@ body{
 .listing {
   background: #fff;
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .listing h2 {
@@ -729,4 +727,10 @@ body{
     display: block;
     text-align: center;
   }
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0,0,0,.8);
 }

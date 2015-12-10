@@ -13,26 +13,26 @@ published: true
 </head>
 <body class="{{ page.title | slugify }}">
   <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col8 margin2 pad8h'>
-        <div class='clearfix col12'>
-          <h1 class='blog-title'><a href='{{site.baseurl}}/'>Tristina Wright</a></h1>
-          <div class='menu'>
-            <a class='{% if page.url == "/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
-            <a class='{% if page.url == "/about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a class='{% if page.url == "/words/" %}active{% endif %}' href='{{site.baseurl}}/words'>Words</a>
-            <a class='{% if page.url == "/faq/" %}active{% endif %}' href='{{site.baseurl}}/faq'>FAQ</a>
-          </div>
-          <div class="social">
-            <div><a href="http://authorwrightnow.tumblr.com/"><i class="socicon-tumblr"></i></a></div>
-            <div><a href="https://www.instagram.com/tristinawright/"><i class="socicon-instagram"></i></a></div>
-            <div><a href="https://www.facebook.com/TristinaMWright"><i class="socicon-facebook"></i></a></div>
-            <div><a href="https://twitter.com/#!/TristinaWright"><i class="socicon-twitter"></i></a></div>
-            <div><a href="http://www.goodreads.com/tristinawright"><i class="socicon-goodreads"></i></a></div>
-        </div>
-      </div>
-    </div>
+    <header class='header col6 margin3'>
+      <h1 class='blog-title'><a href='{{site.baseurl}}/'>Tristina Wright</a></h1>
+      <nav class='menu'>
+        <a class='{% if page.url == "/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+        <a class='{% if page.url == "/about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
+        <a class='{% if page.url == "/words/" %}active{% endif %}' href='{{site.baseurl}}/words'>Words</a>
+        <a class='{% if page.url == "/faq/" %}active{% endif %}' href='{{site.baseurl}}/faq'>FAQ</a>
+      </nav>
+      <aside class="social">
+        <div><a href="http://authorwrightnow.tumblr.com/"><i class="socicon-tumblr"></i></a></div>
+        <div><a href="https://www.instagram.com/tristinawright/"><i class="socicon-instagram"></i></a></div>
+        <div><a href="https://www.facebook.com/TristinaMWright"><i class="socicon-facebook"></i></a></div>
+        <div><a href="https://twitter.com/#!/TristinaWright"><i class="socicon-twitter"></i></a></div>
+        <div><a href="http://www.goodreads.com/tristinawright"><i class="socicon-goodreads"></i></a></div>
+      </aside>
+    </header>
     {{content}}
+    <footer class="footer col6 margin3">
+      <p>&copy; Copyright {{site.time | date: "%Y" }} Tristina Wright.</p>
+    </footer>
   </div>
   <script src='{{site.baseurl}}/site.js'></script>
 </body>
