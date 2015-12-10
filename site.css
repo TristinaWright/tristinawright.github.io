@@ -624,13 +624,15 @@ body{
 }
 
 .social a {
+  display: inline-block;
   font-size: 20px;
-  padding: 4px 6px;
+  padding: 2px 6px;
   border-radius: 15px;
   border: 1px solid #02516a;
   background-color: #517fa4;
   color: #fff;
-  vertical-align: bottom;
+  vertical-align: middle;
+  height: 34px;
 
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -639,7 +641,7 @@ body{
   -webkit-transform:rotateY(0deg);
           transform:rotateY(0deg);
 }
-.social a:hover {
+.social > div:hover a {
   -webkit-transform: rotateY(-360deg);
           transform: rotateY(-360deg);
 }
@@ -684,7 +686,12 @@ body{
   max-width: 100%;
   height: auto;
 }
-
+@media only screen and (max-height:550px){
+  .home .header {
+    position: static;
+    margin-top:0;
+  }
+}
 @media only screen and (max-width:640px) {
   body{
     background-size: cover;
