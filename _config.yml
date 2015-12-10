@@ -2,9 +2,17 @@ baseurl:
 permalink: 'post/'
 markdown: kramdown
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'http://tristinawright.github.io/'
   relativeLinks: 'http://tristinawright.github.io/links.jsonp'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /img
+    - /fonts
+    - .gitignore
+    - Gemfile
   media: 'media'
   metadata:
     _posts:
