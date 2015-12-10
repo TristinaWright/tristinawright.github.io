@@ -684,6 +684,7 @@ body{
 
 .listing .img-right {
   max-width: 100%;
+  width: 50%; /* Better to tweak a percentage (actual image width / width of container) * 100%; override in markdown {:style="width:41%"}*/
   height: auto;
   float: right;
   padding-left: 1rem;
@@ -691,6 +692,7 @@ body{
 
 .listing .img-span {
   max-width: 100%;
+  clear:both;
   height: auto;
 }
 @media only screen and (max-height:550px){
