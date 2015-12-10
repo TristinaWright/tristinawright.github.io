@@ -3,8 +3,8 @@ permalink: 'post/'
 markdown: kramdown
 prose:
   rooturl: ''
-  siteurl: 'http://tristinawright.github.io/'
-  relativeLinks: 'http://tristinawright.github.io/links.jsonp'
+  siteurl: 'http://tristinawright.com/'
+  relativeLinks: 'http://tristinawright.com/links.jsonp'
   ignore:
     - _config.yml
     - /_layouts
