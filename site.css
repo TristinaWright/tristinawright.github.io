@@ -734,3 +734,9 @@ body{
   color: #fff;
   text-shadow: 0 0 3px rgba(0,0,0,.8);
 }
+
+.home .footer {
+  position: absolute;
+  bottom: 0;
+  font-size: .8rem;
+}
