@@ -598,13 +598,22 @@ body{
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1.1;
+  text-shadow: 0 0 3px rgba(0,0,0,.8);
   -webkit-transition: color, text-shadow 500ms;
           transition: color, text-shadow 500ms;
 }
 
-.menu a:hover, .menu .active {
-  color: #8ed4d2;
-  text-shadow: 0 0 3px #fff;
+.menu a:hover {
+  text-shadow: 0 0 12px rgba(1,49,77,1);
+}
+
+.menu .active {
+  color: #3762D5;
+  text-shadow: 0 0 9px rgba(255,255,255,1);
+}
+
+.menu .active:hover {
+  text-shadow: 0 0 5px rgba(255,255,255,1);
 }
 
 .social {
