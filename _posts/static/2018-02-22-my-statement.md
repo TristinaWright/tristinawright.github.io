@@ -2,6 +2,7 @@
 layout: page
 published: true
 title: My Statement
+permalink: my-statement/
 ---
 
 I'm not sure how to start this. I have so many words in my head, rolling around, clashing together, trying to make sense of everything I've observed over the past week and a half. I've been waiting to make a statement until things settled. Until investigations into the allegations made headway and/or concluded on this end. Until important decisions were made. 
