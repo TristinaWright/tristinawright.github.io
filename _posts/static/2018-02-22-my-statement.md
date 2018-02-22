@@ -57,7 +57,7 @@ This happened at least two more times, if my memory serves, the messages growing
 
 It wasn't until much later I learned Weezie believed it was me who sent the messages after someone suggested it was me to them, and then later claimed they had my IP address to prove it. Which isn't possible. Because I didn't send them. 
 
-I'm not obsessed with Weezie, despite them thinking I am. I honestly never thought about them beyond the minor venting I did when they lied about how I was responding to people. And when they blocked me, that was it in my mind. I went about my own business. Honestly, I was done with them when I muted them far earlier for my own personal reasons regarding my friend. 
+I'm not obsessed with Weezie, despite them thinking I am. I honestly never thought about them beyond the minor venting I did when they lied about how I was responding to people. And when they blocked me, that was it in my mind. I went about my own business.   
 
 So, I'm not entirely certain where these claims of abuse and harassment come from because, for a very long time, there has been a definitive wall between Weezie and myself that has never had anything to do with my book or my writing, but simply me muting someone on the internet I barely knew so I wouldn't see them on my timeline anymore because my best friend was hurting. 
 
@@ -75,6 +75,6 @@ I also have no idea what's going to happen with me publishing-wise. I have a lot
 
 I want to keep writing. There are people in publishing who I wanted to work with. Maybe someday, that will once again be possible. As I said before, there are those who will believe me, and there are those who won't. I have no control over that outcome beyond telling my side of things and letting things fall where they will.
 
-For now, this is goodbye. I stand by my innocence regarding these specific allegations; however, I'm sorry for the hurt I caused to my friends and to the teens I spectacularly failed.
+For now, this is goodbye. I stand by my innocence regarding these specific allegations; however, I'm sorry for the hurt I caused to my friends and to the teens I failed.
 
 _Tristina Wright_
