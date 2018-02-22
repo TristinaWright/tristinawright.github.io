@@ -1,8 +1,7 @@
 ---
 layout: page
-published: false
+published: true
 title: My Statement
-permalink: ''
 ---
 
 I'm not sure how to start this. I have so many words in my head, rolling around, clashing together, trying to make sense of everything I've observed over the past week and a half. I've been waiting to make a statement until things settled. Until investigations into the allegations made headway and/or concluded on this end. Until important decisions were made. 
@@ -78,4 +77,3 @@ I want to keep writing. There are people in publishing who I wanted to work with
 For now, this is goodbye. I stand by my innocence regarding these specific allegations; however, I'm sorry for the hurt I caused to my friends and to the teens I spectacularly failed.
 
 _Tristina Wright_
-
